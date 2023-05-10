@@ -19,9 +19,8 @@ composer dumpautoload -o
 npm install
 ```
 
-## Changes
-- You need to change BFSB Project to your plugin name
-- You need to change bfsb to your plugin slug
+## Info
+- BFSB means = BrainstormForce SpaceX Blocks
 - Set name space composer.json psr-4 to tour unique namespace for the app folder
 ```json
 {
@@ -52,6 +51,9 @@ your_bfsb_function();
 ```
 
 ## NPM Helper comment
+```shell script
+npm run watch
+```
 ```shell script
 npm run dev
 ```
