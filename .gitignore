@@ -1,0 +1,10 @@
+.DS_Store
+asset
+npm-debug.log 
+.idea
+.vscode
+node_modules
+propovoice 
+*.zip
+mix-manifest.json
+package-lock.json 

@@ -1,0 +1,238 @@
+.bfsb-search-form {
+	display: flex;
+	margin-bottom: 30px;
+	grid-gap: 15px;
+
+	input[type=text],
+	select {
+		border-radius: 4px;
+		color: #4A5568;
+		font-size: 14px;
+		padding: 8px;
+		border: 1px solid #CBD5E0;
+		outline: none;
+		line-height: 100%;
+		background: #fff;
+	}
+
+	select {
+		padding: 7px;
+	}
+
+	button {
+		background: linear-gradient(180deg, #4C6FFF 0%, #3157F0 99.99%, rgba(76, 111, 255, 0) 100%);
+		padding: 8px 20px;
+		font-weight: 500;
+		color: #fff;
+		cursor: pointer;
+		border: none;
+		font-size: 14px;
+		line-height: 100%;
+		display: inline-flex;
+		align-items: center;
+		border-radius: 4px;
+	}
+
+	button:hover {
+		background: linear-gradient(180deg, #365DFD 0%, #123DEE 100%);
+		transition: all 0.3s ease-out;
+	}
+
+	.bfsb-search-clean {
+		position: relative;
+		top: 5px;
+		cursor: pointer;
+	}
+}
+
+.bfsb-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 25px;
+
+	.bfsb-item {
+		position: relative;
+		cursor: pointer;
+		border: 1px solid #E2E8F0;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		overflow: hidden;
+		border-radius: 4px;
+
+		img {
+			max-width: 100%;
+			border-radius: 4px;
+		}
+
+		h4 {
+			font-size: 18px;
+			font-weight: 500;
+			color: #2D3748;
+			padding: 0;
+			margin: 10px;
+		}
+
+		p {
+			color: #718096;
+			font-size: 14px;
+			line-height: 140%;
+			padding: 0;
+			margin: 0;
+		}
+
+		.bfsb-item-details {
+			background: linear-gradient(180deg, #4C6FFF 0%, #3157F0 99.99%, rgba(76, 111, 255, 0) 100%);
+			padding: 8px 20px;
+			font-weight: 600;
+			color: #fff;
+			cursor: pointer;
+			border: none;
+			font-size: 14px;
+			display: inline-flex;
+			align-items: center;
+			border-radius: 4px;
+			margin-top: 20px;
+			text-decoration: none;
+
+			&:hover {
+				background: linear-gradient(180deg, #365DFD 0%, #123DEE 100%);
+				transition: all 0.3s ease-out;
+			}
+		}
+	}
+}
+
+.bfsb-pagi {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+
+	button {
+		padding: 8px 20px;
+		font-weight: 500;
+		cursor: pointer;
+		font-size: 14px;
+		line-height: 100%;
+		display: inline-flex;
+		align-items: center;
+		border-radius: 4px;
+		background: white;
+		border: 1px solid #E2E8F0;
+		color: #2D3748;
+	}
+
+	button:hover {
+		background: #718096;
+		color: #fff;
+		transition: all 0.3s ease-out;
+	}
+}
+
+.bfsb-modal-overlay {
+	visibility: visible;
+	opacity: 1;
+	z-index: 99999;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: -17px;
+	background: rgba(0, 0, 0, 0.55);
+	transition: opacity 500ms;
+
+	.bfsb-modal {
+		margin: 30px auto;
+		background: #fff;
+		border-radius: 15px;
+		position: relative;
+		max-width: 760px;
+	}
+
+	.bfsb-modal-header {
+		position: relative;
+		border-radius: 25px 25px 0 0;
+		box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.06);
+		padding: 20px 30px;
+		background: transparent;
+		border-bottom: 1px solid rgba(221, 221, 221, 0.6588235294);
+
+		.bfsb-close {
+			position: absolute;
+			padding: 5px;
+			border-radius: 50%;
+			width: 50px;
+			height: 50px;
+			line-height: 54px;
+			text-align: center;
+			cursor: pointer;
+			transform: translateY(-50%);
+			top: 55%;
+			right: 5px;
+		}
+
+		.bfsb-modal-title {
+			font-size: 18px;
+			font-weight: 600;
+			text-transform: capitalize;
+			color: #4A5568;
+			line-height: 140%;
+			padding: 0;
+			margin: 0;
+		}
+	}
+
+	.bfsb-modal-content {
+		overflow: auto;
+		padding: 30px;
+
+		img {
+			max-width: 100%;
+			margin-bottom: 15px;
+			border-radius: 4px;
+		}
+
+		p {
+			color: #718096;
+			font-size: 14px;
+			line-height: 140%;
+			padding: 0;
+			margin: 0;
+		}
+
+		.bfsb-details {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-gap: 25px;
+			margin-top: 20px;
+
+			.bfsb-column {
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				overflow: hidden;
+
+				.bfsb-label {
+					font-size: 16px;
+					font-weight: 500;
+					color: #2D3748;
+					margin-top: 10px;
+				}
+
+				.bfsb-value {
+					font-size: 14px;
+					color: #718096;
+				}
+			}
+		}
+	}
+}
+
+.block-editor-page {
+	.bfsb-modal-overlay {
+		top: 50px;
+	}
+}

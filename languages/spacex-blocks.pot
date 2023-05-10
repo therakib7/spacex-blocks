@@ -1,0 +1,148 @@
+# Copyright (C) 2023 SpaceX Blocks
+# This file is distributed under the same license as the SpaceX Blocks package.
+msgid ""
+msgstr ""
+"Project-Id-Version: SpaceX Blocks\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-09 11:36+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: %s template
+#: ../app/Helper/Fns.php:135
+msgid "%s does not exist."
+msgstr ""
+
+#: ../app/Helper/I18n.php:10
+msgid "Dashboard"
+msgstr ""
+
+#: ../app/Helper/I18n.php:13
+msgid "Successfully"
+msgstr ""
+
+#: ../app/Helper/I18n.php:14
+msgid "Successfully Added"
+msgstr ""
+
+#: ../app/Helper/I18n.php:15
+msgid "Successfully Updated"
+msgstr ""
+
+#: ../app/Helper/I18n.php:16
+msgid "Successfully Deleted"
+msgstr ""
+
+#: ../app/Helper/I18n.php:17
+msgid "Thanks for your message"
+msgstr ""
+
+#: ../app/Helper/I18n.php:18
+msgid "Thanks for payment request"
+msgstr ""
+
+#: ../app/Helper/I18n.php:19
+msgid "Mail successfully sent"
+msgstr ""
+
+#: ../app/Helper/I18n.php:20
+msgid "Are you sure to delete it?"
+msgstr ""
+
+#: ../app/Helper/I18n.php:21
+msgid "Copied"
+msgstr ""
+
+#: ../app/Ctrl/Install/InstallCtrl.php:25
+msgid "Every Half Minute"
+msgstr ""
+
+#: ../app/Ctrl/Install/InstallCtrl.php:30
+msgid "Every 1 Minute"
+msgstr ""
+
+#: ../app/Ctrl/Template/TemplateCtrl.php:18
+msgid "SpaceX Blocks Workspace"
+msgstr ""
+
+#: ../app/Ctrl/Menu/Type/Welcome.php:15, ../app/Ctrl/Menu/Type/Welcome.php:16
+msgid "SpaceX Blocks Welcome"
+msgstr ""
+
+#: ../app/Ctrl/Widget/Elementor/ElementorCtrl.php:29
+msgid "SpaceX Blocks Widgets"
+msgstr ""
+
+#: ../app/Ctrl/Widget/Elementor/Widgets/Registration.php:14
+msgid "SpaceX Blocks: Registration"
+msgstr ""
+
+#: ../app/Ctrl/Widget/Elementor/Widgets/Registration.php:35
+msgid "Content"
+msgstr ""
+
+#: ../view/feedback/form.php:4
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: ../view/feedback/form.php:8
+msgid "I found a better plugin"
+msgstr ""
+
+#: ../view/feedback/form.php:9
+msgid "Please share which plugin"
+msgstr ""
+
+#: ../view/feedback/form.php:12
+msgid "I couldn't get the plugin to work"
+msgstr ""
+
+#: ../view/feedback/form.php:16
+msgid "It's a temporary deactivation"
+msgstr ""
+
+#: ../view/feedback/form.php:20
+msgid "I have SpaceX Blocks Pro"
+msgstr ""
+
+#: ../view/feedback/form.php:22
+msgid "Wait! Don't deactivate SpaceX Blocks. You have to activate both SpaceX Blocks and SpaceX Blocks Pro in order for the plugin to work."
+msgstr ""
+
+#: ../view/feedback/form.php:25
+msgid "Other"
+msgstr ""
+
+#: ../view/feedback/form.php:26
+msgid "Please share the reason"
+msgstr ""
+
+#: ../view/feedback/form.php:57
+msgid "If you have a moment, please share why you are deactivating SpaceX Blocks"
+msgstr ""
+
+#: ../view/feedback/form.php:116
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: ../view/feedback/form.php:120
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: ../view/template/spacex-blocks-template.php:3
+msgid "SpaceX Blocks"
+msgstr ""
+
+#: ../view/template/partial/403.php:24
+msgid "Sorry!! You don't have permission to view this page"
+msgstr ""
+
+#: ../view/template/partial/404.php:40
+msgid "We Can't find this page you're looking for"
+msgstr ""
