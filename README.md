@@ -1,4 +1,4 @@
-# WordPress Bfsb Plugin
+# WordPress SpaceX Blocks Plugin
 
 ## Requirement 
 - Composer [HERE](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos)
