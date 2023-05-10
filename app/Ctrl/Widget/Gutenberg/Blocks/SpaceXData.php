@@ -24,6 +24,7 @@ class SpaceXData {
 
 		$localize_script = [
 			"apiUrl" => esc_url(rest_url()),
+			"assetUri" => trailingslashit(BFSB_URL),
 			"nonce" => wp_create_nonce("wp_rest") 
 		];
 		wp_localize_script("bfsb-script", "bfsb", $localize_script);

@@ -14,7 +14,7 @@ mix.webpackConfig({
     output: {
         publicPath: '/wp-content/plugins/spacex-blocks/',
         // path: path.join(__dirname, 'root'),
-        //publicPath: '/nurency-plugin/wp-content/plugins/spacex-blocks/',
+        //publicPath: '/dev-location/wp-content/plugins/spacex-blocks/',
         chunkFilename: 'asset/js/cpnt/chnk/[chunkhash].js', //[name][chunkhash]
     },
     resolve: {
@@ -24,9 +24,7 @@ mix.webpackConfig({
             'block': path.resolve('src/js/block'),
             'hoc': path.resolve('src/js/hoc'),
             'context': path.resolve('src/js/context'),
-            'cpnt': path.resolve('src/js/cpnt'),
-            'out-cpnt': path.resolve('src/js/out-cpnt'),
-            'inv-tmpl': path.resolve('src/js/inv-tmpl'),
+            'cpnt': path.resolve('src/js/cpnt')
         },
     }
 });
