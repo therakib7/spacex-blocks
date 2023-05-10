@@ -3,7 +3,7 @@
 ## Requirement 
 - Composer [HERE](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos)
 - Nodejs [HERE](https://nodejs.org/en/download/)
-- PHP >= 8.0.11 
+- PHP >= 7.1
 ## install
 - Clone git repository
 ```shell script
